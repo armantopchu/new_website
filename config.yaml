@@ -8,9 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Forty
+      My name is Arman Topchu and I created this website using R for my Data Analytics for Finance assignment.
+    title: Welcome to my website!
   blog: {}
   contact:
     address:
@@ -79,37 +78,32 @@ params:
     enable: yes
     showcase:
       - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
-        url: blogs/aliquam
+        subtitle: Who am I?
+        title: About me
+        url: blogs/aboutme
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
-        url: blogs/tempus
+        subtitle: It is fascinating how the majority of our life can fit only on one page!
+        title: Preview my CV!
+        url: blogs/preview-cv
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
-        url: blogs/magna
+        subtitle: Based on a true story
+        title: A story about a little dog and his big dream
+        url: blogs/flying-dog
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
+        subtitle: Resources used in the process of creating this website
+        title: Acknowledgements
+        url: blogs/acknowledgements
       - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
+        subtitle: 
+        title: My all-time favorite movies!
+        url: blogs/fav-movies
       - image: pic06.jpg
         subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+        title: My all-time favorite series!
+        url: blogs/fav-series
   two:
-    buttonText: Download my CV
+    buttonText: Arman's GitHub directory
     enable: yes
-    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      \r\n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \r\n    Pellentesque
-      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-      pellentesque lorem ipsum dolor. \r\n    Nullam et orci eu lorem consequat tincidunt.
-      Vivamus et sagittis libero.\r\n    Mauris aliquet magna magna sed nunc rhoncus
-      amet pharetra et feugiat tempus."
-    title: Download my CV
+    subtitle: "Please feel free to use or inspect my code from my github public directory."
+    title: Interested in recreating this website?
     url: blogs
