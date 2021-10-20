@@ -7,8 +7,8 @@ description: A copy of my latest CV!
 draft: false
 image: pic08.jpg
 keywords: ""
-slug: tempus
-title: Tempus
+slug: preview-cv
+title: preview-cv
 ---
 
 Please feel free to reach out to me with any relevant opportunities!
