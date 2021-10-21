@@ -106,7 +106,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Homework 3 Group R Project"
       subtitle = "One of our group projects for the Data Analytics for Finance class"
-      image = "pic05.jpeg"
+      image = "pic05.jpg"
       url = "blogs/groupproject"
 
 
