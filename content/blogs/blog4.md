@@ -16,6 +16,13 @@ title: Acknowledgements
 
 ![](/img/vid.jpg)
 
+[![1Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)]({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
+
+[![2Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)]("https://www.youtube.com/watch?v=a2y8n9PbVXA")
+
+
+[![3Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)](https://www.youtube.com/watch?v=a2y8n9PbVXA)
+
 
 ![[Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")]
 
