@@ -98,3 +98,8 @@ params:
     subtitle: "Feel free to use or inspect my code from my github public directory!"
     title: Interested in recreating this website?
     url: https://github.com/armantopchu
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
