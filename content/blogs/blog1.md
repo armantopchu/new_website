@@ -27,6 +27,11 @@ knitr::include_graphics(\img\shu.jpg, error = FALSE)
 <img src="/blogs/blog1_files/shu.jpg" alt="" width="400px" height="200px"/>
 
 ![Sheffield Hallam University: 2017-2020]("C:\Users\user\Documents\new_website\static\img\blogs\shu.jpg")
+![](/img/shu.jpg)
+![](\img\shu.jpg)
+![]("/img/shu.jpg")
+![]("\img\shu.jpg")
+
 
 ```
 Years later, I did my bachelors in Finance and Investment at Sheffield Hallam in the UK because at the time I thought it would best prepare for me a job in finance. After my first year I started interning at one of the region’s largest wealth management firms. They offered me a part-time job throughout my studies and I ended up working there all throughout my education – part-time during my degree and full-time during the summers. 
