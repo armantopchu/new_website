@@ -8,8 +8,8 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      My name is Arman Topchu and I created this website using R for my Data Analytics for Finance assignment.
-    title: Welcome to my website!
+      This website was created using R, GitHub, Typora and Netlify for my Data Analytics for Finance assignment.
+    title: Welcome to Arman Topchu's website!
   blog: {}
   contact:
     address:
@@ -24,7 +24,7 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: +44 773 399 2339
         title: Phone
   custom_css: []
   custom_js: []
@@ -37,9 +37,9 @@ params:
     copyright: Arman Topchu
     enable: yes
     quicklinks:
-      - alt: HTML5 UP
-        text: 'Design: '
-        url: https://www.html5up.net
+      - alt: 
+        text: 'Made with: R, Typora, GitHub, Netlify'
+        url: 
     social:
       - icon: fa-facebook
         label: Facebook
@@ -64,10 +64,6 @@ params:
         url: '#'
       - name: Blogs
         url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
     menu: Menu
     subtitle: By HTML5 Up
     title: Forty
