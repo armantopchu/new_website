@@ -11,7 +11,6 @@ slug: acknowledgements
 title: Acknowledgements
 ---
 
-<iframe width="683" height="384" src="https://www.youtube.com/embed/a2y8n9PbVXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
 
