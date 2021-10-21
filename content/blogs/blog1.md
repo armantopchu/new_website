@@ -33,7 +33,6 @@ knitr::include_graphics(\img\shu.jpg, error = FALSE)
 ![]("\img\shu.jpg")
 
 
-```
 Years later, I did my bachelors in Finance and Investment at Sheffield Hallam in the UK because at the time I thought it would best prepare for me a job in finance. After my first year I started interning at one of the region’s largest wealth management firms. They offered me a part-time job throughout my studies and I ended up working there all throughout my education – part-time during my degree and full-time during the summers. 
 
 
