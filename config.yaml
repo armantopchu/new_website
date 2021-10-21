@@ -8,7 +8,7 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      This website was created using R, GitHub, Typora and Netlify for my Data Analytics for Finance assignment.
+      This website was created using R, GitHub, Typora and Netlify for a Data Analytics for Finance assignment.
     title: Welcome to Arman Topchu's website!
   blog: {}
   contact:
@@ -86,17 +86,10 @@ params:
         subtitle: Resources used in the process of creating this website
         title: Acknowledgements
         url: blogs/acknowledgements
-      - image: pic05.jpg
-        subtitle: 
-        title: My all-time favorite movies!
-        url: blogs/fav-movies
-      - image: pic06.jpg
-        subtitle: 
-        title: My all-time favorite series!
-        url: blogs/fav-series
+
   two:
     buttonText: Arman's GitHub directory
     enable: yes
-    subtitle: "Please feel free to use or inspect my code from my github public directory."
+    subtitle: "Feel free to use or inspect my code from my github public directory!"
     title: Interested in recreating this website?
     url: https://github.com/armantopchu
