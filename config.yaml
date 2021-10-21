@@ -89,7 +89,7 @@ params:
       - image: pic05.jpeg
         subtitle: One of our group projects for the Data Analytics for Finance class
         title: Homework 3: Group R Project
-        url: blogs/blog5
+        url: blogs/groupproject
          
 
   two:

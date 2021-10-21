@@ -11,7 +11,7 @@ slug: acknowledgements
 title: Acknowledgements
 ---
 
-[![3Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)](https://www.youtube.com/watch?v=a2y8n9PbVXA)
+[![Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)](https://www.youtube.com/watch?v=a2y8n9PbVXA)
 
 
 [Link to Kostis Christodoulou's GitHub page](https://github.com/kostis-christodoulou/ca09.mfa2022/tree/master/website)
