@@ -44,9 +44,6 @@ params:
       - icon: fa-facebook
         label: Facebook
         url: https://www.facebook.com/EVEBITDA
-      - icon: fa-instagram
-        label: Instagram
-        url: https://www.instagram.com/arman.prive
       - icon: fa-github
         label: GitHub
         url: https://www.github.com/armantopchu
