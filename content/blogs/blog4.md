@@ -17,20 +17,12 @@ title: Acknowledgements
 
 
 
-```
-![]({/img/vid.jpg})][({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
-```
+[![Test1]({/img/vid.jpg})({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
 
+[![Test2]({/img/vid.jpg})][({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")]
 
+[![Test3]({/img/vid.jpg})]({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
 
-
-[![Test]({/img/vid.jpg})]({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
-
-[![Test]({/img/vid.jpg})][({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")]
-
-[![]({/img/vid.jpg})]({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
-
-![]({/img/vid.jpg})]({video-url} https://www.youtube.com/watch?v=a2y8n9PbVXA)
 
 
 
