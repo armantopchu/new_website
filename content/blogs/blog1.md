@@ -12,13 +12,14 @@ title: About me
 ---
 
 I grew up in a small town in Bulgaria and my interest in finance was sparked by my brother when I was about 11. He is 8 years older and also studied finance in the UK and after his first term at university, he came back for the holidays and on our way back home from the Bucharest airport he was telling me about the Great Financial Crisis and I felt as if time had stopped. I was fascinated and immediately knew I wanted to be in this industry.
+```
 
+```{r picture, echo=FALSE, out.width="100%"}
+knitr::include_graphics("\img\blogs\shu.jpg", error = FALSE)
+```
 
 ```{r picture, echo=FALSE, out.width="100%"}
 knitr::include_graphics("/img/blogs/shu.jpg", error = FALSE)
-```
-```{r picture, echo=FALSE, out.width="100%"}
-knitr::include_graphics("\img\blogs\shu.jpg", error = FALSE)
 ```
 
 ![Sheffield Hallam University: 2017-2020](C:\Users\user\Documents\new_website\static\img\blogs\shu.jpg)
