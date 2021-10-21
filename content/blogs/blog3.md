@@ -5,7 +5,7 @@ categories:
 date: "2021-21-10T22:26:13-05:00"
 description: A little dog with a big dream
 draft: false
-image: pic03.jpg
+image: pic03.png
 keywords: "original_material"
 slug: flying-dog
 title: Booker Prize contestant

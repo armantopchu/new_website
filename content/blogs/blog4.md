@@ -8,7 +8,7 @@ draft: false
 image: pic07.jpg
 keywords: ""
 slug: acknowledgements
-title: acknowledgements
+title: Acknowledgements
 ---
 
 <iframe width="683" height="384" src="https://www.youtube.com/embed/a2y8n9PbVXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
