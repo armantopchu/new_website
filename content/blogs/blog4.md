@@ -18,9 +18,13 @@ title: Acknowledgements
 
 
 ```
-![]({/img/vid.jpg})]({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
+![]({/img/vid.jpg})][({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
 ```
 
+
+[![]({/img/vid.jpg})[({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")]]
+
+![]({/img/vid.jpg})[({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")]
 
 ![]({/img/vid.jpg})]({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
 
