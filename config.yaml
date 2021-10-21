@@ -86,7 +86,7 @@ params:
         subtitle: Resources used in the process of creating this website
         title: Acknowledgements
         url: blogs/acknowledgements
-      - image: pic05.jpeg
+      - image: pic05.jpg
         subtitle: One of our group projects for the Data Analytics for Finance class
         title: Homework 3 Group R Project
         url: blogs/groupproject
