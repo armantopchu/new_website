@@ -1,19 +1,17 @@
 ---
-title: "Final Group Project: AirBnB analytics"
-date: "12 Oct 2021"
-author: "Study Group A9 Members: Arman Topchu, Kaize Ying, Leonie Bick, Lorenz Freigassner, Tafadzwa Chinanzvavana, Yiyue Hu, Vrinda Gupta"
-output:
-  html_document:
-    highlight: zenburn
-    theme: flatly
-    toc: yes
-    toc_float: yes
-    number_sections: yes
-    code_folding: show
-editor_options: 
-  markdown: 
-    wrap: 72
+categories:
+- ""
+- ""
+date: "2021-10-31T22:42:51-05:00"
+description: One of our group projects for the Data Analytics for Finance class
+draft: false
+image: 
+keywords: ""
+slug: groupproject
+title: Homework 3 Group R Project
 ---
+
+
 
 ```{r setup, include=FALSE}
 options(knitr.table.format = "html") 
