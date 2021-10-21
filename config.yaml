@@ -88,7 +88,7 @@ params:
         url: blogs/acknowledgements
       - image: pic05.jpeg
         subtitle: One of our group projects for the Data Analytics for Finance class
-        title: Homework 3: Group R Project
+        title: Homework 3 Group R Project
         url: blogs/groupproject
          
 
