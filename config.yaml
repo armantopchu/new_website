@@ -98,7 +98,7 @@ params:
         title: My all-time favorite movies!
         url: blogs/fav-movies
       - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
+        subtitle: 
         title: My all-time favorite series!
         url: blogs/fav-series
   two:
@@ -106,4 +106,4 @@ params:
     enable: yes
     subtitle: "Please feel free to use or inspect my code from my github public directory."
     title: Interested in recreating this website?
-    url: blogs
+    url: https://github.com/armantopchu

@@ -7,8 +7,17 @@ description: ""
 draft: false
 image: pic10.jpg
 keywords: ""
-slug: ipsum
-title: Ipsum
+slug: aboutme
+title: About me
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+I grew up in a small town in Bulgaria and my interest in finance was sparked by my brother when I was about 11. He is 8 years older and also studied finance in the UK and after his first term at university, he came back for the holidays and on our way back home from the Bucharest airport he was telling me about the Great Financial Crisis and I felt as if time had stopped. I was fascinated and immediately knew I wanted to be in this industry.
+
+Years later, I did my bachelors in Finance and Investment at Sheffield Hallam in the UK because at the time I thought it would best prepare for me a job in finance. After my first year I started interning at one of the region’s largest wealth management firms. They offered me a part-time job throughout my studies and I ended up working there all throughout my education – part-time during my degree and full-time during the summers. In 2019, our two managing partners sold the business to an AIM-listed company called Kingswood and I continued to work there under the same arrangement.
+
+Upon graduation during the peak of Covid in 2020, I accepted the company’s offer to work full time but realised I’m still not where I want to be professionally and that I want to learn even more so I decided to pursue a Masters degree at London Business School. I met a lot of interesting people and it has been a great experience so far! 
+
+I worked closely with a few managing directors and they have been mentoring me. One of them hired me on the side to help with a biotech spin-out. It is still an ongoing project and my job was to help the founders create a business plan, develop scalable strategy, and project cashflows. 
+
+Overall, the past few years have been an interesting journey.
+
