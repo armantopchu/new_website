@@ -14,6 +14,10 @@ title: Acknowledgements
 
 ![Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
 
+![](/img/vid.jpg)
+
+
+![[Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")]
 
 
 [![Test1]({/img/vid.jpg})({video-url} "https://www.youtube.com/watch?v=a2y8n9PbVXA")
