@@ -5,6 +5,7 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.shared import Pt
 from docx.oxml.shared import qn  # Add this line to import qn
+import os
 
 app = Flask(__name__)
 
@@ -198,9 +199,12 @@ def generate_word_file(data):
     # Add page number in footer
     add_page_number_footer(doc)
 
-   # Save the Word document
-    docx_filename = 'test_chatGPT10.5.docx'
-    doc.save(docx_filename)
+    # Get the absolute path to the directory where this script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    docx_filename = os.path.join(script_dir, 'test_chatGPT10.docx')
 
+    # Save the Word document
+    doc.save(docx_filename)
+    
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='127.0.0.1', port=5000)
