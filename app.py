@@ -8,7 +8,7 @@ from docx.oxml.shared import qn  # Add this line to import qn
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/submit-form')
 def home():
     return render_template('index.html')
 

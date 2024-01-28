@@ -31,20 +31,21 @@
         }
 
         input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: #160a47;
             color: white;
             cursor: pointer;
         }
 
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #160a47;
         }
     </style>
 </head>
 <body>
     <h1>Generate Word Document</h1>
     
-    <form action="/submit-form" method="post">
+    <form action="/submit-form" method="post" onsubmit="console.log('Form submitted');">
+
         <label for="first_name">First Name:</label>
         <input type="text" id="first_name" name="first_name" required>
 
@@ -56,5 +57,35 @@
 
         <input type="submit" value="Generate Document">
     </form>
+
+    <script>
+        document.getElementById('wordForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            fetch('/submit-form', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    first_name: document.getElementById('first_name').value,
+                    surname: document.getElementById('surname').value,
+                    fee: document.getElementById('fee').value,
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Word document generated successfully!');
+                } else {
+                    alert('Error generating Word document.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred.');
+            });
+        });
+    </script>
 </body>
 </html>
