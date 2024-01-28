@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Document Generator</title>
+</head>
+<body>
+    <h1>Generate Word Document</h1>
+    
+    <form action="/submit-form" method="post">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required><br>
+
+        <label for="fee">Fee (%):</label>
+        <input type="number" id="fee" name="fee" required><span>%</span><br>
+
+        <input type="submit" value="Generate Document">
+    </form>
+
+</body>
+</html>
