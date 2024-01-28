@@ -16,7 +16,7 @@ def submit_form():
 
     # Extract relevant data (modify this based on your form structure)
     first_name = data.get('first_name')
-    surname = data.get('surname')
+    last_name = data.get('surname')
     fee = data.get('fee')
 
 def set_font_and_spacing(paragraph, font_name, font_size, spacing):
@@ -149,14 +149,14 @@ def main():
                 WD_PARAGRAPH_ALIGNMENT.RIGHT)
 
     # Add "To" address left-aligned
-    add_address(doc, ["To:", "Mr Smith", "Address 1", "Address 2", "Postcode", "United Kingdom"],
+    add_address(doc, ["To:", first_name, last_name, "Address 1", "Address 2", "Postcode", "United Kingdom"],
                 WD_PARAGRAPH_ALIGNMENT.LEFT)
 
     # Add subject heading centered and in bold with adjusted paragraph spacing
     add_heading(doc, "RE: ISA Top-up 2023/24", 12, 12)
 
     # Add main text with spacing between lines
-    main_text = "Dear Mr Smith,\n\nI hope you are well.\n\nIt was a pleasure to see you yesterday. " \
+    main_text = "Dear Mr last_name,\n\nI hope you are well.\n\nIt was a pleasure to see you yesterday. " \
                 "It was great to discuss X,Y,Z. In this document I plan to...\n\nPlease find an updated summary of your assets below"
     doc.add_paragraph(main_text).paragraph_format.space_after = Pt(6)  # Set paragraph spacing to 6
 
@@ -194,12 +194,9 @@ def main():
     # Add page number in footer
     add_page_number_footer(doc)
 
-   # Save the Word document
+    # Save the Word document
     docx_filename = 'test_chatGPT10.docx'
     doc.save(docx_filename)
-
-if __name__ == "__main__":
-    main()
 
     # Return a response (for simplicity, just echoing back the received data)
     return jsonify({'success': True, 'data': data})
