@@ -7,7 +7,6 @@ description: Client Inputs
 draft: false
 keywords: ""
 slug: submit-form
-title: submit_form
 ---
 
 # Client Inputs
