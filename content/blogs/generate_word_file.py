@@ -1,10 +1,11 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, make_response, send_from_directory
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.shared import Pt
 from docx.oxml.shared import qn  # Add this line to import qn
+import os
 
 app = Flask(__name__)
 
@@ -13,6 +14,7 @@ def home():
     return render_template('index.html')
 
 @app.route('/submit-form', methods=['POST'])
+@app.route('/submit-form', methods=['POST'])
 def submit_form():
     # Retrieve form data from the request
     data = request.form
@@ -20,8 +22,10 @@ def submit_form():
     # Call your function to generate Word file using the form data
     generate_word_file(data)
 
-    # Return a response (for simplicity, just echoing back the received data)
-    return jsonify({'success': True, 'data': data})
+    # Return a response with the generated Word document
+    response = make_response(send_from_directory('.', 'test_chatGPT10.docx', as_attachment=True))
+    response.headers["Content-Disposition"] = "attachment; filename=test_chatGPT10.docx"
+    return response
 
 def set_font_and_spacing(paragraph, font_name, font_size, spacing):
     run = paragraph.add_run('')  
@@ -198,9 +202,12 @@ def generate_word_file(data):
     # Add page number in footer
     add_page_number_footer(doc)
 
-   # Save the Word document
-    docx_filename = 'test_chatGPT10.docx'
-    doc.save(docx_filename)
+    # Get the absolute path to the directory where this script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    docx_filename = os.path.join(script_dir, 'test_chatGPT10.docx')
 
+    # Save the Word document
+    doc.save(docx_filename)
+    
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=5000)
