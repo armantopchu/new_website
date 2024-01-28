@@ -12,7 +12,9 @@ title: acknowledgements
 
 # Your Page Content
 
-<form action="/submit" method="post">
+# Your Page Content
+
+<form name="contact" netlify>
   <label for="first_name">First Name:</label>
   <input type="text" id="first_name" name="first_name" required><br>
 
@@ -20,7 +22,8 @@ title: acknowledgements
   <input type="text" id="surname" name="surname" required><br>
 
   <label for="fee">Fee (%):</label>
-  <input type="number" id="fee" name="fee" required><span>%</span><br>
+  <input type="text" id="fee" name="fee" pattern="\d+(\.\d{1,2})?" title="Enter a valid percentage" required><span>%</span><br>
 
   <input type="submit" value="Submit">
 </form>
+
