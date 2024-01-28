@@ -7,9 +7,9 @@ from docx.shared import Pt
 from docx.oxml.ns import qn
 from io import BytesIO
 
-Flask1test = Flask(__name__)
+app = Flask(__name__)
 
-@Flask1test.route('/submit-form', methods=['POST'])
+@app.route('/submit-form', methods=['POST'])
 def submit_form():
     # Retrieve form data from the request
     data = request.get_json()
@@ -202,4 +202,4 @@ def main():
     return jsonify({'success': True, 'data': data})
 
 if __name__ == '__main__':
-    Flask1test.run(debug=True)
+    app.run(debug=True)
