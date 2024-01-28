@@ -1,10 +1,26 @@
+from flask import Flask, render_template, request, jsonify
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.shared import Pt
-from docx.oxml.ns import qn
-from io import BytesIO
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+@app.route('/submit-form', methods=['POST'])
+def submit_form():
+    # Retrieve form data from the request
+    data = request.form
+
+    # Call your function to generate Word file using the form data
+    generate_word_file(data)
+
+    # Return a response (for simplicity, just echoing back the received data)
+    return jsonify({'success': True, 'data': data})
 
 def set_font_and_spacing(paragraph, font_name, font_size, spacing):
     run = paragraph.add_run('')  
@@ -185,5 +201,5 @@ def generate_word_file():
     docx_filename = 'test_chatGPT10.docx'
     doc.save(docx_filename)
 
-if __name__ == "__generate_word_file__":
-    generate_word_file()
+if __name__ == '__main__':
+    app.run(debug=True)
