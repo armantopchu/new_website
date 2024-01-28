@@ -6,13 +6,13 @@ date: "2021-21-10T22:26:13-05:00"
 description: Client Inputs
 draft: false
 keywords: ""
-slug: acknowledgements
-title: acknowledgements
+slug: submit_form
+title: submit_form
 ---
 
 # Client Inputs
 
-<form name="contact" netlify success="/success" onsubmit="return validateForm()">
+<form name="contact" method="post" data-netlify="true" action="http://127.0.0.1:5000/submit-form" onsubmit="return validateForm()">
   <label for="first_name">First Name:</label>
   <input type="text" id="first_name" name="first_name" required><br>
 
@@ -20,7 +20,7 @@ title: acknowledgements
   <input type="text" id="surname" name="surname" required><br>
 
   <label for="fee">Fee (%):</label>
-  <input type="text" id="fee" name="fee" pattern="\d+(\.\d{1,2})?" title="Enter a valid percentage" required><span>%</span><br>
+  <input type="text" id="fee" name="fee" pattern="\d+(\.\d{1,2})?" title="Enter a valid percentage" required><span></span><br>
 
   <input type="submit" value="Submit">
 </form>
