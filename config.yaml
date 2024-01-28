@@ -83,9 +83,9 @@ params:
         title: A story about a little dog and his big dream
         url: blogs/flying-dog
       - image: pic04.jpg
-        subtitle: Resources used in the process of creating this website
-        title: Acknowledgements
-        url: blogs/acknowledgements
+        subtitle: Use this form to generate your own document
+        title: Client Inputs
+        url: blogs/submit-form
       - image: pic05.jpg
         subtitle: One of our group projects for the Data Analytics for Finance class
         title: Homework 3 Group R Project
