@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, make_response, send_from_directory
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
@@ -14,6 +14,7 @@ def home():
     return render_template('index.html')
 
 @app.route('/submit-form', methods=['POST'])
+@app.route('/submit-form', methods=['POST'])
 def submit_form():
     # Retrieve form data from the request
     data = request.form
@@ -21,8 +22,10 @@ def submit_form():
     # Call your function to generate Word file using the form data
     generate_word_file(data)
 
-    # Return a response (for simplicity, just echoing back the received data)
-    return jsonify({'success': True, 'data': data})
+    # Return a response with the generated Word document
+    response = make_response(send_from_directory('.', 'test_chatGPT10.docx', as_attachment=True))
+    response.headers["Content-Disposition"] = "attachment; filename=test_chatGPT10.docx"
+    return response
 
 def set_font_and_spacing(paragraph, font_name, font_size, spacing):
     run = paragraph.add_run('')  
