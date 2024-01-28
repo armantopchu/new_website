@@ -6,7 +6,7 @@ date: "2021-21-10T22:26:13-05:00"
 description: Client Inputs
 draft: false
 keywords: ""
-slug: submit_form
+slug: submit-form
 title: submit_form
 ---
 
