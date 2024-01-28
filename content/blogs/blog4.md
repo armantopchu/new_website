@@ -10,11 +10,9 @@ slug: acknowledgements
 title: acknowledgements
 ---
 
-# Your Page Content
+# Client Inputs
 
-# Your Page Content
-
-<form name="contact" netlify>
+<form name="contact" netlify success="/success" onsubmit="return validateForm()">
   <label for="first_name">First Name:</label>
   <input type="text" id="first_name" name="first_name" required><br>
 
@@ -26,4 +24,12 @@ title: acknowledgements
 
   <input type="submit" value="Submit">
 </form>
+
+<script>
+  function validateForm() {
+    // You can add custom JavaScript validation here
+    // Return false if validation fails to prevent form submission
+    return true;
+  }
+</script>
 
