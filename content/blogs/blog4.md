@@ -11,7 +11,7 @@ slug: submit-form
 
 # Client Inputs
 
-<form name="contact" method="post" data-netlify="true" action="http://127.0.0.1:5000/submit-form" onsubmit="return validateForm()">
+<form name="contact" method="post" data-netlify="true" action="submit-form" onsubmit="return validateForm()">
   <label for="first_name">First Name:</label>
   <input type="text" id="first_name" name="first_name" required><br>
 
