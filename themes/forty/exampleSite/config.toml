@@ -98,10 +98,10 @@ disqusShortname = ""
       url = "blogs/flying-dog"
 
     [[params.tiles.showcase]]
-      title = "Acknowledgements"
+      title = "Client Inputs"
       subtitle = "Resources used in the making of this website"
       image = "pic04.jpg"
-      url = "blogs/acknowledgements"
+      url = "blogs/submit-form"
 
     [[params.tiles.showcase]]
       title = "Homework 3 Group R Project"
