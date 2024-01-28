@@ -1,5 +1,13 @@
 ---
-title: Inputs
+categories:
+- "1"
+- "2"
+date: "2021-21-10T22:26:13-05:00"
+description: Client Inputs
+draft: false
+keywords: ""
+slug: acknowledgements
+title: acknowledgements
 ---
 
 # Your Page Content
