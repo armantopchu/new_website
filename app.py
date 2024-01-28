@@ -199,7 +199,7 @@ def generate_word_file(data):
     add_page_number_footer(doc)
 
    # Save the Word document
-    docx_filename = 'test_chatGPT10.docx'
+    docx_filename = 'test_chatGPT10.5.docx'
     doc.save(docx_filename)
 
 if __name__ == '__main__':
