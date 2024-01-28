@@ -4,6 +4,7 @@ from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.shared import Pt
+from docx.oxml.shared import qn  # Add this line to import qn
 
 app = Flask(__name__)
 
@@ -138,7 +139,7 @@ def add_header(document, image_path, width):
     # Align the paragraph to the right
     paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
 
-def generate_word_file():
+def generate_word_file(data):
     # Create a new Word document
     doc = Document()
     # Set default font and spacing
@@ -159,7 +160,7 @@ def generate_word_file():
     add_heading(doc, "RE: ISA Top-up 2023/24", 12, 12)
 
     # Add main text with spacing between lines
-    main_text = "Dear Mr" + {data['surname']} + ",\n\nI hope you are well.\n\nIt was a pleasure to see you yesterday. " \
+    main_text = f"Dear Mr {data['surname']},\n\nI hope you are well.\n\nIt was a pleasure to see you yesterday. " \
                 "It was great to discuss X,Y,Z. In this document I plan to...\n\nPlease find an updated summary of your assets below"
     doc.add_paragraph(main_text).paragraph_format.space_after = Pt(6)  # Set paragraph spacing to 6
 
