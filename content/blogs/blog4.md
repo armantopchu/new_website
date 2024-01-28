@@ -1,18 +1,18 @@
 ---
-categories:
-- ""
-- ""
-date: "2021-21-10T22:42:51-05:00"
-description: Some of the resources I used in the process of creating this website! 
-draft: false
-image: pic07.jpg
-keywords: ""
-slug: acknowledgements
-title: Acknowledgements
+title: Inputs
 ---
 
-[![Link to a CradletoGraveR's relevant YouTube video](/img/vid.jpg)](https://www.youtube.com/watch?v=a2y8n9PbVXA)
+# Your Page Content
 
+<form action="/submit" method="post">
+  <label for="first_name">First Name:</label>
+  <input type="text" id="first_name" name="first_name" required><br>
 
-[Link to Kostis Christodoulou's GitHub page](https://github.com/kostis-christodoulou/ca09.mfa2022/tree/master/website)
+  <label for="surname">Surname:</label>
+  <input type="text" id="surname" name="surname" required><br>
 
+  <label for="fee">Fee (%):</label>
+  <input type="number" id="fee" name="fee" required><span>%</span><br>
+
+  <input type="submit" value="Submit">
+</form>
