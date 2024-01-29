@@ -14,6 +14,6 @@ def generate_word():
     doc = Document()
     doc.add_paragraph(f"First Name: {data['first_name']}")
     doc.add_paragraph(f"Surname: {data['surname']}")
-    doc.save('/tmp/generated_word.docx')
+    doc.save('/tmp/test_chatGPT10.docx')
 
     return jsonify({'success': True, 'message': 'Word file generated successfully'})

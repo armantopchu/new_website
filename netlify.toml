@@ -1,6 +1,7 @@
-[build] 
+[build]
   publish = "public"
   command = "hugo"
+  functions = "C:\\16. IA v1\\Development\\website_vF_2024_updated\\functions"
 
 [build.environment]
   HUGO_VERSION = "0.88.1"

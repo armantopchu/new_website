@@ -14,7 +14,6 @@ def home():
     return render_template('index.html')
 
 @app.route('/submit-form', methods=['POST'])
-@app.route('/submit-form', methods=['POST'])
 def submit_form():
     # Retrieve form data from the request
     data = request.form
