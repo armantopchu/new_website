@@ -1,0 +1,9 @@
+// netlify/functions/generateWord/package.json
+{
+    "name": "generateWord",
+    "version": "1.0.0",
+    "main": "generateWord.js",
+    "dependencies": {
+      // List your dependencies here
+    }
+  }  
