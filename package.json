@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build"
+    "build": "echo \"npm run build\" && hugo"  // Update this line with your actual build command
   },
   "dependencies": {
     "source-map-resolve": "^0.6.0",
