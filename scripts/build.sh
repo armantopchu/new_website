@@ -1,5 +1,5 @@
 #!/bin/bash
 
 hugo  # Your first command
-python build.py  # Your second command
+python generate_word_file.py  # Your second command
 npm run build
