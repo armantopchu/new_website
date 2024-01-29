@@ -1,9 +1,11 @@
 [build]
-  command = "hugo"
+  command = "npm install"
   publish = ".next"  # Should match the distDir in next.config.js
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs" #because we are using Next-js
+  package = "@netlify/plugin-nextjs"
+  [plugins.inputs]
+    distDir = ".next"
 
 [dev]
   functions = "netlify/functions"  # The directory containing your serverless functions for local development
