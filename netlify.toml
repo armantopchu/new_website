@@ -1,18 +1,20 @@
 [build]
-  publish = "public"
-  command = "hugo"
-  functions = "netlify/functions"
+  publish = "public"  # The directory to deploy (adjust based on your project)
+  functions = "netlify/functions"  # The directory containing your serverless functions
+  command = "bash ./scripts/build.sh"  # The build command
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"  # Add this if you're using Next.js, adjust as needed
 
-[build.environment]
-  HUGO_VERSION = "0.88.1"
-  HUGO_ENABLEGITINFO = "true"
+[dev]
+  functions = "netlify/functions"  # The directory containing your serverless functions for local development
 
-[context.production.environment]
-  HUGO_ENV = "production"
-  
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.88.1"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.88.1"  
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
