@@ -4,7 +4,9 @@
   command = "bash ./scripts/build.sh"  # The build command
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"  # Add this if you're using Next.js, adjust as needed
+  package = "@netlify/plugin-nextjs" #because we are using Next-js
+  [plugins.inputs]
+    distDir = "out"  # Adjust based on your project settings
 
 [dev]
   functions = "netlify/functions"  # The directory containing your serverless functions for local development
