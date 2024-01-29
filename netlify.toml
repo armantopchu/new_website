@@ -1,7 +1,6 @@
 [build]
-  publish = "public"  # The directory to deploy (adjust based on your project)
-  functions = "netlify/functions"  # The directory containing your serverless functions
-  command = "bash build.sh"  # The build command
+  command = "npm run build"
+  publish = "public"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs" #because we are using Next-js
