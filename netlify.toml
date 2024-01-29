@@ -1,17 +1,14 @@
 [build]
   command = "npm run build"
-  publish = "public"
+  publish = ".next"  # Should match the distDir in next.config.js
 
 [[plugins]]
   package = "@netlify/plugin-nextjs" #because we are using Next-js
+  [plugins.inputs]
+    distDir = ".next"  # Should match the distDir in next.config.js
 
 [dev]
   functions = "netlify/functions"  # The directory containing your serverless functions for local development
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
 
 [[headers]]
   for = "/*"
