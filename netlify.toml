@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run next-build"
   publish = ".next"  # Should match the distDir in next.config.js
 
 [[plugins]]
