@@ -1,7 +1,11 @@
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"npm run build\" && hugo"
+    "hugo-build": "echo \"npm run hugo-build\" && hugo",
+    "next-dev": "next",
+    "next-build": "next build",
+    "next-start": "next start",
+    "next-export": "npm run next-build && next export"
   },
   "dependencies": {
     "source-map-resolve": "^0.6.0",
