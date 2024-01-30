@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "netlify-cli": "^17.15.3",
+    "netlify-cli": "^3.39.1",
     "netlify-lambda": "^2.0.15",
     "serverless-http": "^2.7.0",
     "source-map-resolve": "^0.6.0",
