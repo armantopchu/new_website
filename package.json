@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "^5.0.0-alpha.8",
-    "netlify-cli": "^17.15.5",  // Adjust this version or use a version range that exists
+    "netlify-cli": "^17.15.5",
     "netlify-lambda": "^2.0.15",
     "serverless-http": "^3.2.0",
     "source-map-resolve": "^0.6.0",
