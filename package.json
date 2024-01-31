@@ -381,7 +381,7 @@
     "hugo": "hugo",
     "build": "next build && hugo",
     "export": "next export"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/armantopchu/website_vF_2024_updated.git"
