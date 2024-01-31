@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "next",
-    "build": "echo \"npm run build\" && hugo",
+    "build": "npm run build && hugo",
     "export": "npm run build && next export"
   },
   "dependencies": {
