@@ -379,8 +379,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "next",
+    "initial-build": "build",
     "build": "npm run initial-build && hugo",
-    "initial-build": "your-original-build-command",
     "export": "npm run initial-build && next export"
   },
   "repository": {
