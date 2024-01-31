@@ -382,7 +382,7 @@
     "build": "npm run initial-build && hugo",
     "initial-build": "your-original-build-command",
     "export": "npm run initial-build && next export"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/armantopchu/website_vF_2024_updated.git"
