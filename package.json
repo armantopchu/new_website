@@ -1,19 +1,23 @@
 {
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "hugo-build": "echo \"npm run hugo-build\" && hugo",
-    "next-dev": "next",
-    "next-build": "next build",
-    "next-start": "next start",
-    "next-export": "npm run next-build && next export"
-  },
-  "dependencies": {
-    "express": "^5.0.0-alpha.8",
-    "netlify-cli": "^17.15.5",
-    "netlify-lambda": "^2.0.15",
-    "serverless-http": "^3.2.0",
-    "source-map-resolve": "^0.6.0",
-    "source-map-url": "^0.4.1",
-    "urix": "^0.1.0"
-  }
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "netlify.toml",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "hugo-build": "echo \"npm run hugo-build\" && hugo",
+        "next-dev": "next",
+        "next-build": "next build",
+        "next-start": "next start",
+        "next-export": "npm run next-build && next export"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "netlify-cli": "^17.15.5",
+        "netlify-lambda": "^2.0.15",
+        "serverless-http": "^3.2.0",
+        "source-map-resolve": "^0.6.0",
+        "source-map-url": "^0.4.1",
+        "urix": "^0.1.0"
+    }
 }
