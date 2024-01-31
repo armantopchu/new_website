@@ -378,11 +378,10 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "initial-build": "next",
     "hugo": "hugo",
-    "build": "npm run initial-build && hugo",
-    "export": "npm run initial-build && next export"
-  },
+    "build": "next build && hugo",
+    "export": "next export"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/armantopchu/website_vF_2024_updated.git"
