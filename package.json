@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "next",
-    "build": "npm run build && hugo",
-    "export": "npm run build && next export"
-  },
+    "build": "npm run initial-build && hugo",
+    "initial-build": "npm run build",
+    "export": "npm run initial-build && next export"
+  }
   "dependencies": {
     "express": "^4.18.2",
     "netlify-cli": "^17.15.5",
