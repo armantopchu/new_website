@@ -378,8 +378,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "next",
-    "initial-build": "build",
+    "initial-build": "next",
     "build": "npm run initial-build && hugo",
     "export": "npm run initial-build && next export"
   },
