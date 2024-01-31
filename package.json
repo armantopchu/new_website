@@ -5,8 +5,8 @@
   "main": "netlify.toml",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"npm run build\" && hugo",
     "start": "next",
+    "build": "echo \"npm run build\" && hugo",
     "export": "npm run build && next export"
   },
   "dependencies": {
